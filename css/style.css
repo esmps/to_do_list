@@ -1,0 +1,75 @@
+*{
+    font-family: 'Noto Serif', serif;
+}
+body {
+    background-color: #E3C9CEFF;
+    color: #333333;
+}
+header{
+    height: 100px;
+}
+.btn-green {
+    background: transparent;
+    background-color: whitesmoke;
+    margin: 10px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px grey;
+    -webkit-box-shadow: 3px 3px 3px grey;
+    -moz-box-shadow: 3px 3px 3px grey;
+}
+.btn-green:hover {
+    border: 1px solid black;
+    background-color: #E3C9CEFF;
+}
+.btn-green:active{
+    transform: translate(3px, 3px);
+}
+.form-control {
+    border: 1px solid black;
+    border-radius: 0px;
+    background-color: whitesmoke;
+    margin: 10px;
+}
+.feedback {
+    display: none;
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.item-icon {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.complete-item {
+    color: green;
+}
+.complete-item:hover {
+    color: green;
+}
+.edit-item {
+    color: blue;
+}
+.edit-item:hover {
+    color: blue;
+}
+.delete-item {
+    color: red;
+}
+.delete-item:hover {
+    color: red;
+}
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.visibility {
+    opacity: 0.5;
+}
+.showItem {
+    display: block;
+}
